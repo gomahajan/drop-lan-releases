@@ -1,19 +1,15 @@
 {
-  "version": "0.6.1",
-  "notes": "Drop 0.6.1",
-  "pub_date": "2026-08-25T07:32:11.565Z",
+  "version": "0.6.4",
+  "notes": "Drop 0.6.4",
+  "pub_date": "2026-08-25T07:58:14.568Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODV0S2NYOUVBSkJNQ1BhN1JrMGIwWWZGUUF1M25pLzV6RDllOENXbmE0YXJHRTdlRXo5YzZYZklFZXdoL2Zrc2ZyZUlQL1hRdWZ0NFZSY3V6SmFoelFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQyMzc3CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negorcnE0NkZnVU1jT3lFZVRRUU5DaTRVakpiWEY3NlQzak85YXkzdXc3Zm1XWTBZRTFaZ1dUVm9SVXhQdHVSNlE4SUhtOVBnNERrZVpUM2U4VDJvU3BBZz09Cg==",
-      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v0.6.1/Drop-macos-universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODJVUHUxQ0hSYm9mdEhzV00yREk3YlJxNEdiVzdpYUZqMmVqUDZMTzdBZVNWSm1lRFd2SlhNeHBZS3czMDl6RTZ2ejJ5M1dBZFZKaWVxUW44NlVhQ3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQ0NjcwCWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpBSCtDbHJmNXFrRmVyVFUvZUE5SVMrOUpRODdhMktHc1h2SG5FTWZuSHVYbE1nUGlTSW9hQzVnK1NDRXhKelJCb2NRRVdhVmxZRXZDN1dMVDdWOGRDZz09Cg==",
+      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v0.6.4/Drop-macos-universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODV0S2NYOUVBSkJNQ1BhN1JrMGIwWWZGUUF1M25pLzV6RDllOENXbmE0YXJHRTdlRXo5YzZYZklFZXdoL2Zrc2ZyZUlQL1hRdWZ0NFZSY3V6SmFoelFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQyMzc3CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negorcnE0NkZnVU1jT3lFZVRRUU5DaTRVakpiWEY3NlQzak85YXkzdXc3Zm1XWTBZRTFaZ1dUVm9SVXhQdHVSNlE4SUhtOVBnNERrZVpUM2U4VDJvU3BBZz09Cg==",
-      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v0.6.1/Drop-macos-universal.app.tar.gz"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaOHc0Mm1GajlYSUwrSytjQldHZVhidjVlVHBJUmdXdEtNS0ZsbWVYUS9CSGpGZ0ZxcGdjTnVacmJkTUd6d3dTU0hlbHBOUVh4dkMyaWFWd0w2R3A3eHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQzMTEzCWZpbGU6RHJvcF8wLjYuMV94NjQtc2V0dXAuZXhlCi8yWWxFdCt3dDhxSGI3bExNODJsaFdqUWIvMXRPbUcyRzlPaVR2enJqbjRiRXBjV0Fldk9KSm83SHBYQXhmb0syeU12TUlOdHp3T0FsMkZXMXRTQkJ3PT0K",
-      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v0.6.1/Drop-windows-x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODJVUHUxQ0hSYm9mdEhzV00yREk3YlJxNEdiVzdpYUZqMmVqUDZMTzdBZVNWSm1lRFd2SlhNeHBZS3czMDl6RTZ2ejJ5M1dBZFZKaWVxUW44NlVhQ3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjQ0NjcwCWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpBSCtDbHJmNXFrRmVyVFUvZUE5SVMrOUpRODdhMktHc1h2SG5FTWZuSHVYbE1nUGlTSW9hQzVnK1NDRXhKelJCb2NRRVdhVmxZRXZDN1dMVDdWOGRDZz09Cg==",
+      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v0.6.4/Drop-macos-universal.app.tar.gz"
     }
   }
 }
