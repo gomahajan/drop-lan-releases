@@ -1,6 +1,6 @@
-# Windows v0.6.22 local release handoff
+# Windows v0.6.22 publish handoff
 
-GitHub Actions has exhausted its included minutes. Build and publish the existing Drop v0.6.22 Windows release locally. Do not trigger GitHub Actions, modify application source, change the version, or create another tag.
+GitHub Actions has exhausted its included minutes, but its Windows build job completed successfully and uploaded the signed v0.6.22 artifact. Download and publish that artifact. Do not rebuild the app, request or copy the updater private key, trigger GitHub Actions, modify application source, change the version, or create another tag.
 
 ## 1. Check out the exact release source
 
@@ -22,40 +22,25 @@ The expected `HEAD` is:
 
 The final command must exit successfully. Commit `5b0d8cb` is the Windows taskbar-icon fix.
 
-## 2. Build the signed NSIS installer
+## 2. Download the existing signed Windows artifact
 
-Use the updater signing key already configured on the Windows computer. Never commit or print the private key. If the key is not available, stop and report that instead of publishing an unsigned installer.
-
-```powershell
-pnpm install --frozen-lockfile
-pnpm tauri build --bundles nsis
-```
-
-If the signing key is stored in files but is not already exported, set it only for the current PowerShell process. Adjust the paths to the actual local key location:
+The successful Windows workflow run is `32893059675`, and its artifact is `drop-windows-x64`. It is still available in GitHub and already contains the installer and updater signature.
 
 ```powershell
-$env:TAURI_SIGNING_PRIVATE_KEY = Get-Content "PATH_TO_DROP_UPDATER_KEY" -Raw
-$env:TAURI_SIGNING_PRIVATE_KEY_PASSWORD = (Get-Content "PATH_TO_PASSWORD_FILE" -Raw).Trim()
-pnpm tauri build --bundles nsis
-```
-
-## 3. Collect the updater files
-
-From the `drop-lan` repository:
-
-```powershell
-$installer = Get-ChildItem "src-tauri/target/release/bundle/nsis/*-setup.exe" | Select-Object -First 1
-if (-not $installer) { throw "Windows installer was not produced" }
 $artifactDir = Join-Path $env:TEMP "drop-v0.6.22-windows-release"
 New-Item -ItemType Directory -Force -Path $artifactDir | Out-Null
-Copy-Item $installer.FullName (Join-Path $artifactDir "Drop-windows-x64-setup.exe")
-Copy-Item "$($installer.FullName).sig" (Join-Path $artifactDir "Drop-windows-x64-setup.exe.sig")
+gh run download 32893059675 --repo gomahajan/drop-lan --name drop-windows-x64 --dir $artifactDir
+```
+
+Verify both exact files and record the installer hash:
+
+```powershell
+if (-not (Test-Path (Join-Path $artifactDir "Drop-windows-x64-setup.exe"))) { throw "Signed installer is missing" }
+if (-not (Test-Path (Join-Path $artifactDir "Drop-windows-x64-setup.exe.sig"))) { throw "Updater signature is missing" }
 Get-FileHash (Join-Path $artifactDir "Drop-windows-x64-setup.exe") -Algorithm SHA256
 ```
 
-Both the installer and its `.sig` file must exist.
-
-## 4. Add Windows to the existing updater feed
+## 3. Add Windows to the existing updater feed
 
 Clone `gomahajan/drop-lan-releases` into a separate directory, or update an existing clean clone. The macOS v0.6.22 release was published in commit `ee437b1`.
 
@@ -83,7 +68,7 @@ if (-not $feed.platforms.'darwin-x86_64') { throw "Missing Intel Mac update" }
 if (-not $feed.platforms.'windows-x86_64') { throw "Missing Windows update" }
 ```
 
-## 5. Commit and publish
+## 4. Commit and publish
 
 ```powershell
 git -C PATH_TO_RELEASE_REPO add latest.json downloads/v0.6.22
