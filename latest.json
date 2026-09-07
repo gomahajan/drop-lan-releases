@@ -1,15 +1,15 @@
 {
-  "version": "3.0.7",
-  "notes": "Drop 3.0.7",
-  "pub_date": "2026-09-07T04:01:13.232Z",
+  "version": "3.0.8",
+  "notes": "Drop 3.0.8",
+  "pub_date": "2026-09-07T05:34:06.148Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODB4M1JrcUsrREUrRGxxZ2hCY2RXVkFPQTh6UkJTZWVpRWtEUytVZ0N4dEVOeXhtWFdRT0J5WXBNcU9qNGxLTi9CRjYwYW4xcEVONUtzanRJR3IyNFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzUzNTg5CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpsdFpHcFRod2VSMnhuenlVV1grNGM2MDg0cnpqL0REdjBXdjJjRU9hRnUxV1dsK1ZPUkVVSmlwOEc3b3BuQTM2UnU3R2ZTQ3d2ckxoRE9RTjF1clNEZz09Cg==",
-      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v3.0.7/Drop-macos-universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaOCtESzdRaWlUOXRWRGwyQmpwZEhvaUJjdjFFWmRaa1hNTVoxdTJlTkUvMmlGVExIampwR2lJdEhyQWhVcUlLRHovYnhoMG5XTTJUVEVWWHRPQVN4Z0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzU5MjE0CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpWaE5lL0srRDAyVTlEM25CdS9EY3ExRFhQNDg0WTdQY1NvMUJ3RWg4bmorcEROSUNkaWJsMVVvNmhuZGIwRVFpR2NNQWxGQVgycG4rU0hSTUhBUlVCQT09Cg==",
+      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v3.0.8/Drop-macos-universal.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaODB4M1JrcUsrREUrRGxxZ2hCY2RXVkFPQTh6UkJTZWVpRWtEUytVZ0N4dEVOeXhtWFdRT0J5WXBNcU9qNGxLTi9CRjYwYW4xcEVONUtzanRJR3IyNFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzUzNTg5CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpsdFpHcFRod2VSMnhuenlVV1grNGM2MDg0cnpqL0REdjBXdjJjRU9hRnUxV1dsK1ZPUkVVSmlwOEc3b3BuQTM2UnU3R2ZTQ3d2ckxoRE9RTjF1clNEZz09Cg==",
-      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v3.0.7/Drop-macos-universal.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSSnA1TzlIYWtaOCtESzdRaWlUOXRWRGwyQmpwZEhvaUJjdjFFWmRaa1hNTVoxdTJlTkUvMmlGVExIampwR2lJdEhyQWhVcUlLRHovYnhoMG5XTTJUVEVWWHRPQVN4Z0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzU5MjE0CWZpbGU6RHJvcC1tYWNvcy11bml2ZXJzYWwuYXBwLnRhci5negpWaE5lL0srRDAyVTlEM25CdS9EY3ExRFhQNDg0WTdQY1NvMUJ3RWg4bmorcEROSUNkaWJsMVVvNmhuZGIwRVFpR2NNQWxGQVgycG4rU0hSTUhBUlVCQT09Cg==",
+      "url": "https://raw.githubusercontent.com/gomahajan/drop-lan-releases/main/downloads/v3.0.8/Drop-macos-universal.app.tar.gz"
     }
   }
 }
